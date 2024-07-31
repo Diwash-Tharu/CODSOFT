@@ -4,17 +4,46 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-.navBar
+/* .navBar
 {
-    background-color: #333;
-    overflow: hidden;
-    height: 10px;
+    /* background-color: #333; */
+    /* overflow: hidden; */
+    /* height: 10px;
     width: 100%;
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
+    display: table-row; */
+    /*justify-content: space-between;
     padding: 1em;
     display:inline-block */
     
+
+
+.navBar {
+    background-color: #333; /* Background color of the nav bar */
+    overflow: hidden; /* Clear floats */
+}
+
+.navBar ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.navBar li {
+    float: left; /* Align items horizontally */
+}
+
+.navBar li a {
+    display: block; /* Make the link fill the li */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+.navBar li a:hover {
+    background-color: #111; /* Change background color on hover */
 }
 
 
