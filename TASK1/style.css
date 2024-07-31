@@ -4,6 +4,20 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+.navBar
+{
+    background-color: #333;
+    overflow: hidden;
+    height: 10px;
+    width: 100%;
+    /* display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    display:inline-block */
+    
+}
+
+
 
 header, footer {
     background-color: #333;
