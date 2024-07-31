@@ -31,7 +31,7 @@ body {
 }
 
 .navBar li {
-    float: left; /* Align items horizontally */
+    float: right; /* Align items horizontally */
 }
 
 .navBar li a {
