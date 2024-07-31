@@ -20,8 +20,9 @@ body {
 
 
 .navBar {
-    background-color: #333; /* Background color of the nav bar */
+    background-color: #ffa1a1; /* Background color of the nav bar */
     overflow: hidden; /* Clear floats */
+    padding-bottom: 10px;
 }
 
 .navBar ul {
@@ -47,7 +48,39 @@ body {
 }
 
 
+.navBar input[type="text"] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
 
+.navBar .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.navBar .search-container button:hover {
+    background: #ccc;
+}
+
+
+.logo{
+    float: left;
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensures proper alignment */
+    margin: 0 auto; /* Center the image horizontally */
+    padding: 10px; /* Optional: Add padding around the image */
+    border-radius: 50%; /* Optional: Make the image circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
 header, footer {
     background-color: #333;
     color: white;
