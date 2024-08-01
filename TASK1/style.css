@@ -20,7 +20,7 @@ body {
 
 
 .navBar {
-    background-color: #ffa1a1; /* Background color of the nav bar */
+    background: linear-gradient(to right, #acf887, #4097e9);
     overflow: hidden; /* Clear floats */
     padding-bottom: 10px;
 }
@@ -81,7 +81,15 @@ body {
     border-radius: 50%; /* Optional: Make the image circular */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
-header, footer {
+
+header{
+    background-color: #ececec;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em 0;
+}
+
+ footer {
     background-color: #333;
     color: white;
     text-align: center;
