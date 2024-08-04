@@ -206,3 +206,20 @@ display: none;
     color: #000000;
 
 }
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer a img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
