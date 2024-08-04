@@ -42,6 +42,47 @@
         
     </div>
 
+ 
+
+        
+    <div class="shopitems">
+        <?php
+                    
+              
+                    $trader_data='trader';
+                    $sql = 'SELECT * FROM "USER" WHERE 	USER_ROLE=:trader ';
+                    $trader = oci_parse($connection,$sql);
+                    oci_bind_by_name($trader , ':trader',$trader_data);
+                    oci_execute($trader);
+                    
+                while($rows = oci_fetch_array($trader, OCI_ASSOC)){
+                    // $pid = $row['PRODUCT_ID'];
+                    // $img_name=$row['PRODUCT_NAME'];
+                    // echo "<a href='display_selected_prd.php?s_name=$img_name&s_id=$pid' class='single'>";
+                        echo "<div class='card_info'>";
+                            echo "<img src=\"dbimage/".$rows['IMAGE']."\" alt=".$rows['TRADER_CATEGORY']." >";
+                            echo "<div class='card-info'>";
+                                echo "<div class='card-details'>";
+                                echo "<div class='logo'>";
+                                echo "<img src=\"dbimage/".$rows['TRADER_LOGO']."\" alt=".$rows['TRADER_CATEGORY']." >";
+                                echo "</div>";
+                                    // echo "<label>P_ID :  ".$row['PRODUCT_ID']."</label>";
+                                    echo "<label>Name: ".substr($rows['TRADER_CATEGORY'],0,25)."</label>";
+                                    // echo "<label>Price:  <span> &pound; ".$row['PRICE'] ."<span></label>";
+                                echo "</div>";
+                            echo "</div>"; 
+                            // echo "<div class='btns'>";
+                            //     // echo "<a href='update.php?cat=EditProduct&id=$pid&action=edit' id='edit' ><i class='fa fa-shopping-cart' style='font-size:36px'></i></a>";
+                            //     // echo "<a href='deleteP.php?&id=$pid&action=delete' id='delete' >Wish List</a>";
+                            // echo "</div>";
+                        echo "</div>";
+                        // echo "</a>";
+                    }
+        ?>
+
+    </div>
+
+
     <div class="s">
 
     </div>
