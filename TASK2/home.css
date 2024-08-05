@@ -20,6 +20,10 @@ body {
     font-size: 24px;
 }
 
+.nav-brand img {
+    width: 180px;
+    height: 80px;
+}
 .navbar .nav-links {
     list-style-type: none;
     margin: 0;
