@@ -99,36 +99,40 @@ justify-items: center;
     /* background-color: aquamarine;	 */
 }
 
-* {box-sizing: border-box}
 
-.container {
-  width: 100%;
-  background-color: #ddd;
+
+
+.skill-bar {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
+.skill {
+    margin-bottom: 15px;
 }
 
-.html {width: 90%; background-color: #04AA6D;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
-.php {width: 60%; background-color: #808080;}
-.footer {
-    background-color: #333;
+.skill-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.skill-level {
+    height: 30px;
+    background-color: #4caf50;
+    line-height: 30px;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    border-radius: 5px;
 }
+
+
 
 
 .imageskills img{
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+    width: 500px;
+    height: 500px;
+    /* margin: 10px; */
 }
 .footer .footer-content {
     display: flex;
