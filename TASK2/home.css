@@ -62,6 +62,33 @@ body {
     padding: 20px;
 }
 
+.about_section
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 600px;
+    
+    /* background-color: aquamarine;	 */
+}
+
+
+.image_section img{
+    padding-left: 100px;
+    width: 500px;
+    height: 700px;
+    float: right;
+}
+
+
+.about_section .word_section{
+    /* background-color: rgb(248, 248, 248); */
+    
+text-align: center;
+justify-items: center;
+    color: rgb(0, 0, 0);
+}
+
 .footer {
     background-color: #333;
     color: white;
