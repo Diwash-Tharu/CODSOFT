@@ -68,11 +68,23 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     height: auto;
+    padding-top: 5rem;
     
-    /* background-color: aquamarine;	 */
+   
 }
 
 
+.silltopic
+{
+    display: flex;
+    flex-wrap: wrap;
+  /* text-align: center; */
+  /* background-color: #808080; */
+  justify-content: center;
+  color: rgb(33, 161, 246);
+  padding: 3rem;
+    /* background-color: aquamarine;	 */
+}
 .image_section img{
     padding-left: 100px;
     width: 580px;
@@ -99,40 +111,45 @@ justify-items: center;
     /* background-color: aquamarine;	 */
 }
 
-
-
-
-.skill-bar {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
+.skill-bar
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    width: 50%;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 80px;
+    /* background-color: aquamarine;	 */
 }
 
-.skill {
-    margin-bottom: 15px;
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  /* background-color: #ddd; */
 }
 
-.skill-name {
-    font-size: 18px;
-    margin-bottom: 5px;
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
 }
 
-.skill-level {
-    height: 30px;
-    background-color: #4caf50;
-    line-height: 30px;
-    color: white;
-    text-align: center;
-    border-radius: 5px;
-}
-
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
 
 
 
 .imageskills img{
-    width: 500px;
-    height: 500px;
-    /* margin: 10px; */
+    width: 580px;
+    height: 700px;
+    margin: 60px;
+
 }
 .footer .footer-content {
     display: flex;
