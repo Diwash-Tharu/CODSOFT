@@ -94,9 +94,7 @@ body {
 
 
 .about_section .word_section{
-    /* background-color: rgb(248, 248, 248); */
-    
-/* text-align: center; */
+padding-left: 5rem;
 justify-items: center;
     color: rgb(0, 0, 0);
 }
