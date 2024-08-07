@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: rgb(255, 248, 248);
 }
 
 .navbar {
@@ -70,7 +71,6 @@ body {
     height: auto;
     padding-top: 5rem;
     
-   
 }
 
 
@@ -125,7 +125,7 @@ justify-items: center;
 * {box-sizing: border-box}
 
 .container {
-  width: 100%;
+    width: 100%;
   /* background-color: #ddd; */
 }
 
@@ -149,6 +149,92 @@ justify-items: center;
     margin: 60px;
 
 }
+
+.project
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(154, 205, 240);
+}
+
+
+.projectlist
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(16, 81, 124);
+    height: 600px;
+}
+
+.oneclass
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(10, 24, 34);
+}
+
+
+
+.shopitems {
+    /* padding-top: 100px; */
+    /* background-color: rgb(237, 97, 37); */
+    /* background-color: aqua; */
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    justify-content: center;
+    width: auto;
+    gap: 2rem;
+    justify-content: space-between;
+
+    /* align-content: end; */
+
+}
+
+.card_info img {
+
+    margin: 10px;
+    height: 200px;
+    width: 250px;
+}
+
+.card_info {
+
+
+    padding: 0.8rem;
+    width: 300px;
+    background-color: #FEFBF3;
+    transition: 1.2s;
+}
+
+.card_info:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px 2px #717171;
+    cursor: pointer;
+
+    /* background-color: rgb(1, 22, 3); */
+}
+
+.card-details {
+
+    /* background-color: rgb(238, 238, 238); */
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    /* gap:0.5rem; */
+    width: 100%;
+    text-align: center;
+    color: #000000;
+
+}
+
+
 .footer .footer-content {
     display: flex;
     flex-direction: column;
