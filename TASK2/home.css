@@ -235,6 +235,15 @@ justify-items: center;
 }
 
 
+.continfo
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(16, 81, 124);
+    height: auto;
+}
 .footer .footer-content {
     display: flex;
     flex-direction: column;
