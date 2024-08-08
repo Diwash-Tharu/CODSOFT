@@ -233,7 +233,8 @@ justify-items: center;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    color: rgb(154, 205, 240);
+    /* color: rgb(154, 205, 240); */
+    color: rgb(33, 161, 246);
 }
 
 
