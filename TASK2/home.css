@@ -316,7 +316,8 @@ justify-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
+    padding: 50px;
+    margin-top: 10px;
     height: auto;
 }
 
