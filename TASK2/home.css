@@ -314,11 +314,15 @@ justify-items: center;
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding: 20px;
-    background-color: rgb(16, 81, 124);
     height: auto;
 }
+
+.cont{
+    float: left;
+}
+
 .footer .footer-content {
     display: flex;
     flex-direction: column;
